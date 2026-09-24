@@ -2,12 +2,12 @@
 
 > **Cross-Platform Real-Time Product Price Comparison & Trust Intelligence Engine**
 
-[![Version](https://img.shields.io/badge/version-0.9.0-blue.svg)](file:///e:/Projects/mobile%20application/WildP%20Hunter/package.json)
-[![React Native](https://img.shields.io/badge/React%20Native-0.87.1-61DAFB.svg)](file:///e:/Projects/mobile%20application/WildP%20Hunter/apps/mobile/package.json)
-[![NestJS](https://img.shields.io/badge/NestJS-12.0-E0234E.svg)](file:///e:/Projects/mobile%20application/WildP%20Hunter/apps/backend/package.json)
-[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI%20Powered-8E75C2.svg)](file:///e:/Projects/mobile%20application/WildP%20Hunter/apps/backend/src/modules/ai)
-[![Android Build](<https://img.shields.io/badge/Android%20AAB-Passing%20(v0.9)-brightgreen.svg>)](file:///e:/Projects/mobile%20application/WildP%20Hunter/release-v0.9/RELEASE_VERIFICATION.md)
-[![License](https://img.shields.io/badge/license-UNLICENSED-lightgrey.svg)](file:///e:/Projects/mobile%20application/WildP%20Hunter/package.json)
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](package.json)
+[![React Native](https://img.shields.io/badge/React%20Native-0.87.1-61DAFB.svg)](apps/mobile/package.json)
+[![NestJS](https://img.shields.io/badge/NestJS-12.0-E0234E.svg)](apps/backend/package.json)
+[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI%20Powered-8E75C2.svg)](apps/backend/src/modules/ai)
+[![Android Build](<https://img.shields.io/badge/Android%20AAB-Passing%20(v2.0)-brightgreen.svg>)](release-v2.0/RELEASE_VERIFICATION.md)
+[![License](https://img.shields.io/badge/license-UNLICENSED-lightgrey.svg)](package.json)
 
 ---
 
@@ -28,9 +28,9 @@ WildPrice Hunter allows users to:
 
 - 📘 **[Master Architecture & Engineering Guide](PROJECT_ARCHITECTURE_AND_ENGINEERING_GUIDE.md)** — Comprehensive technical deep dive: dual engines, 6-factor trust algorithm, Google Gemini AI pipeline, and WebSocket contracts.
 - 📖 **[Comprehensive Developer Documentation](docs/README.md)** — Architectural breakdown, API reference, WebSocket protocol, and setup instructions.
-- 📋 **[Play Store Publication Checklist](docs/PLAYSTORE_PUBLICATION_CHECKLIST.md)** — Step-by-step Google Play Console submission guide for v0.9.0.
-- 📦 **[Release v0.9 Verification & Artifacts](release-v0.9/RELEASE_VERIFICATION.md)** — Binary sizes, SHA-256 cryptographic checksums, and `apksigner` logs.
-- 📝 **[Play Store Listing Copy](release-v0.9/PLAY_STORE_LISTING.md)** — Store titles, short/full descriptions, and keyword tags.
+- 📋 **[Play Store Publication Checklist](docs/PLAYSTORE_PUBLICATION_CHECKLIST.md)** — Step-by-step Google Play Console submission guide for v2.0.
+- 📦 **[Release v2.0 Verification & Artifacts](release-v2.0/RELEASE_VERIFICATION.md)** — Binary sizes, SHA-256 cryptographic checksums, and `apksigner` logs.
+- 📝 **[Play Store Listing Copy](release-v2.0/PLAY_STORE_LISTING.md)** — Store titles, short/full descriptions, and keyword tags.
 
 ---
 
@@ -46,7 +46,7 @@ wildprice-hunter/
 │   └── trust-algorithm/       # Standalone 6-factor trust scoring module
 ├── infrastructure/            # Docker Compose services (PostgreSQL, Redis, Elasticsearch)
 ├── scripts/                   # Build automation, PowerShell scripts & testing harnesses
-├── release-v0.9/              # Signed .aab & .apk binaries, graphics, and legal policies
+├── release-v2.0/              # Signed .aab & .apk binaries, graphics, and legal policies
 └── docs/                      # Developer and release documentation
 ```
 
@@ -106,4 +106,5 @@ npm run test --workspace=apps/mobile
 
 ---
 
-_WildPrice Hunter v0.9.0 | Built with React Native, NestJS, BullMQ & Google Gemini AI_
+_WildPrice Hunter v2.0.0 | Built with React Native, NestJS, BullMQ & Google Gemini AI_
+
