@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs & Artifacts
+dist/
+build/
+*/build/
+**/android/build/
+**/android/app/build/
+**/android/.gradle/
+**/.cxx/
+**/ios/build/
+**/ios/Pods/
+*.jsbundle
+
+# Android & Keystores (Security Critical)
+*.jks
+*.keystore
+!apps/mobile/android/app/debug.keystore
+KEYSTORE_CREDENTIALS.md
+local.properties
+
+# Database & Cache Dumps
+dump.rdb
+*.rdb
+
+# Environment & Secrets (Security Critical)
+.env
+.env.*
+!.env.example
+*.env
+
+# Large Binary Release Files (Store in GitHub Releases instead of Git commit history)
+*.apk
+*.aab
+*.ipa
+
+# React Native & Metro
+.expo/
+.expo-shared/
+.metro/
+*.tsbuildinfo
+.metro-health-check*
+*.bundle
+index.android.bundle
+
+# IDE & Workspace
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.agents/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Binaries & Executables
+*.exe
+*.dll
+*.so
+*.dylib
+

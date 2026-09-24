@@ -1,0 +1,33 @@
+{
+  "name": "wildprice-hunter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cross-platform product price comparison engine for dropshipping and smart shopping",
+  "workspaces": [
+    "apps/backend",
+    "apps/mobile",
+    "packages/shared-types",
+    "packages/trust-algorithm"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=apps/backend",
+    "dev:mobile:android": "npm run android --workspace=apps/mobile",
+    "dev:mobile:ios": "npm run ios --workspace=apps/mobile",
+    "build:backend": "npm run build --workspace=apps/backend",
+    "build:android": "powershell -ExecutionPolicy Bypass -File ./scripts/build-android.ps1",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}
