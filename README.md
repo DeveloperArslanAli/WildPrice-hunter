@@ -26,11 +26,11 @@ WildPrice Hunter allows users to:
 
 ## 🚀 Quick Navigation
 
-- 📖 **[Comprehensive Developer Documentation](file:///e:/Projects/mobile%20application/WildP%20Hunter/docs/README.md)** — In-depth architectural breakdown, API reference, WebSocket protocol, and setup instructions.
-- 📋 **[Play Store Publication Checklist](file:///e:/Projects/mobile%20application/WildP%20Hunter/docs/PLAYSTORE_PUBLICATION_CHECKLIST.md)** — Step-by-step Google Play Console submission guide for v0.9.0.
-- 📦 **[Release v0.9 Verification & Artifacts](file:///e:/Projects/mobile%20application/WildP%20Hunter/release-v0.9/RELEASE_VERIFICATION.md)** — Binary sizes, SHA-256 cryptographic checksums, and `apksigner` logs.
-- 🔑 **[Android Keystore Credentials](file:///e:/Projects/mobile%20application/WildP%20Hunter/KEYSTORE_CREDENTIALS.md)** — Keystore passwords, aliases, and certificate SHA-256/SHA-1 fingerprints.
-- 📝 **[Play Store Listing Copy](file:///e:/Projects/mobile%20application/WildP%20Hunter/release-v0.9/PLAY_STORE_LISTING.md)** — Store titles, short/full descriptions, and keyword tags.
+- 📘 **[Master Architecture & Engineering Guide](PROJECT_ARCHITECTURE_AND_ENGINEERING_GUIDE.md)** — Comprehensive technical deep dive: dual engines, 6-factor trust algorithm, Google Gemini AI pipeline, and WebSocket contracts.
+- 📖 **[Comprehensive Developer Documentation](docs/README.md)** — Architectural breakdown, API reference, WebSocket protocol, and setup instructions.
+- 📋 **[Play Store Publication Checklist](docs/PLAYSTORE_PUBLICATION_CHECKLIST.md)** — Step-by-step Google Play Console submission guide for v0.9.0.
+- 📦 **[Release v0.9 Verification & Artifacts](release-v0.9/RELEASE_VERIFICATION.md)** — Binary sizes, SHA-256 cryptographic checksums, and `apksigner` logs.
+- 📝 **[Play Store Listing Copy](release-v0.9/PLAY_STORE_LISTING.md)** — Store titles, short/full descriptions, and keyword tags.
 
 ---
 
