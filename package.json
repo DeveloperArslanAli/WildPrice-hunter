@@ -11,8 +11,11 @@
   ],
   "scripts": {
     "dev:backend": "npm run dev --workspace=apps/backend",
+    "start:backend": "npm run start:prod --workspace=apps/backend",
+    "dev:mobile": "npm run android --workspace=apps/mobile",
     "dev:mobile:android": "npm run android --workspace=apps/mobile",
     "dev:mobile:ios": "npm run ios --workspace=apps/mobile",
+    "start:mobile": "npm run start --workspace=apps/mobile",
     "build:backend": "npm run build --workspace=apps/backend",
     "build:android": "powershell -ExecutionPolicy Bypass -File ./scripts/build-android.ps1",
     "test": "npm run test --workspaces --if-present",
